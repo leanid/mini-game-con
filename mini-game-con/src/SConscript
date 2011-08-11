@@ -1,0 +1,6 @@
+Program('game', 
+['./debug.c', './main.cpp'], 
+LIBS=['SDL'], 
+LIBPATH=['/home/leo/SDL/build/.libs'], 
+CPPPATH = ['/home/leo/SDL/include'],
+LINKFLAGS = ['-rdynamic'])
